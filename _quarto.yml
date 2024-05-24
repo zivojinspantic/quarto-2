@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "Projects"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: sarima.qmd
+        text: Sarima model
+      - href: cluster.qmd
+        text: Clustering1
+      - href: cluster2.qmd
+        text: Clustering2 
+      - href: about.qmd
+        text: Project Abstracts
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    number-sections: true
+    number-depth: 3
+    shift-heading-level-by: -1
+    grid: 
+      body-width: 1200px
+      sidebar-width: 200px
+      margin-width: 200px
+
+editor: visual
+
